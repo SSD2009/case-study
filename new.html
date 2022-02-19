@@ -1,0 +1,230 @@
+<html>
+
+<head>
+  <title>Case Study Google Lens vs Mobilenet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Indie+Flower&family=Short+Stack&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>Case Study</h1>
+  <br>
+  <h1><b>Google Lens </b></h1>
+  <h1><b>vs </b></h1>
+  <h1><b>Mobilenet</b></h1>
+  <br>
+  <div class="container">
+    <ol>
+      <div class="test_object">
+        <li class="">
+          <b>Test Image</b>
+
+          <br>
+          <div>
+            <span><img src="Bottle.jpg" class="">
+
+              Output on <b>Google Lens</b> -
+              <b>Water bottle</b>
+
+              Output on <b>Mobilenet</b> -
+              <span>Cocktail shaker</span>
+            </span>
+          </div>
+          <h5 class="mini_result">
+            <h5>Result</h5>
+            <hr style="border-top: 1px solid red;">
+            <h3><b>Google lens is more accurate</b></h3>
+      </div>
+      </li>
+
+    </ol>
+    <br>
+    <ol start="2">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Beyblade.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>Beyblade</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>N/A</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Google lens is more accurate</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+      <br>
+      <ol start="3">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Ball.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>Table tennis ball</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>baseball</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Google lens is more accurate</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+      <br>
+      <ol start="4">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Cup.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>Mug</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>Coffee Mug</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Draw</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+      <br>
+      <ol start="5">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Plant.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>Coriander</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>N/A</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Google lens is more accurate</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+      <br>
+      <ol start="6">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Pencil.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>Colored pencil</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>Stick</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Google lens is more accurate</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+      <br>
+      <ol start="7">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Racket.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>Anti-Mosquito racket</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>racket</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Google lens is more accurate</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+      <br>
+      <ol start="8">
+        <div class="test_object">
+          <li class="">
+            <b>Test Image</b>
+  
+            <br>
+            <div>
+              <span><img src="Spoon.jpg" class="">
+  
+                Output on <b>Google Lens</b> -
+                <b>spoon</b>
+  
+                Output on <b>Mobilenet</b> -
+                <span>racket</span>
+              </span>
+            </div>
+            <h5 class="mini_result">
+              <h5>Result</h5>
+              <hr style="border-top: 1px solid red;">
+              <h3><b>Google lens is more accurate</b></h3>
+        </div>
+        </li>
+  
+      </ol>
+    </div>
+</body>
+</html>
